@@ -1,0 +1,324 @@
+.building::after{
+    content: url(../../images/Iphone.png);
+    position: absolute;
+    width: 263px;
+    height: 500px;
+    left: 917px;
+    top: 162px;
+    
+}
+
+.building>h1{
+    width: 546px;
+    height: 243px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+
+    letter-spacing: -0.553846px;
+
+    color: #36536B;
+    margin-top: 150px;
+}
+.building>p{
+    width: 225px;
+    height: 18px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #6C8294;
+    margin-top: -60px;
+    margin-left: 20px;
+    
+}
+.building__text{
+    width: 225px;
+    height: 18px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #576470;
+    
+
+}
+.sign__up__form{
+    margin-top: 30px;
+    margin-bottom: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 49px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    width: 445px;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+
+
+}
+.sign__up__form-email{
+    width: 142px;
+    height: 18px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #36536B;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+}
+.sign__up__form-button-btn{
+    width: 173px;
+    height: 48px;
+    background: #BA4270;
+    border-radius: 24px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.115385px;
+    text-align: center;
+   
+    text-decoration: none;
+    color: #FBFCFE;
+    border: none;
+}
+.sign__up__form-button-btn:hover{
+    background-color: #e4a6bc;
+
+}
+.payapi{
+    height: 472px;
+    background: #1B262F;
+    margin-top: 200px;
+    display: flex;
+
+
+    &__title>h2{
+        width: 445px;
+        height: 56px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+        
+        letter-spacing: -0.369231px;
+        
+        color: #FBFCFE;
+        padding-top: 100px;
+        
+    }
+    &__title>p{
+        width: 445px;
+        height: 112px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        /* or 187% */
+    
+    
+        color: #FBFCFE;
+    
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        padding-top: 40px;
+        
+    }
+   
+    
+}
+.btn{
+    width: 129px;
+    height: 48px;
+    
+    border-radius: 24px;
+    border: 1px solid #FBFCFE;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: -0.115385px;
+   
+    text-decoration: none;
+    color: #1B262F;
+    
+    margin-top: 60px;
+}
+.tesla{
+    width: 536px;
+    height: 103px;  
+    margin-left: 150px;
+    margin-top: 210px;
+    line-height: 60px;
+
+}
+.implement::before{
+    content: url(../../images/Group\ 14.png);
+}
+.implement{
+    display: flex;
+
+    &__title{
+        margin-top: 60px;
+    }
+
+    &__title>h2{
+        width: 445px;
+        height: 56px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+
+        letter-spacing: -0.369231px;
+
+        color: #36536B;
+    }
+
+    &__title>p{
+        width: 445px;
+        height: 84px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        /* or 187% */
+
+
+        color: #6C8294;
+    }
+
+}
+
+
+
+.simple{
+    display: flex;
+
+    &__title{
+        margin-top: 150px;
+    }
+
+    &__title>h2{
+        width: 445px;
+        height: 56px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+    
+        letter-spacing: -0.369231px;
+    
+        color: #36536B;
+    }
+
+    &__title>p{
+        width: 445px;
+        height: 56px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        /* or 187% */
+
+
+        color: #6C8294;
+    }
+}
+.simple::after{
+    content: url(../../images/Frame\ 4.png);
+}
+.banking__title{
+    list-style: none;
+    display: flex;
+}
+.icon{
+   margin-left: 120px;
+}
+.banking__item>h2{
+    width: 350px;
+    height: 25px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    text-align: center;
+    letter-spacing: -0.138462px;
+
+    color: #36536B;
+}
+.banking__item>p{
+    width: 350px;
+    height: 100px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+    letter-spacing: -0.115385px;
+
+    color: #6C8294;
+
+}
+.ready{
+    display: flex;
+}
+.ready__title>h2{
+    width: 445px;
+    height: 56px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.369231px;
+
+    color: #36536B;
+
+}

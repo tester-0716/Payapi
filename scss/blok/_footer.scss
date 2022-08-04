@@ -1,0 +1,46 @@
+.footer__inner{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 30px;
+   
+    height: 100px;
+    background: #1B262F;
+}
+.logojon{
+    display: inline-block;
+}
+.navbar{
+  
+
+    &__item{
+        display: flex;
+        display: inline-block;
+    }
+
+    &__item>a{
+        width: 51px;
+        height: 18px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        color: #FBFCFE;
+
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+
+    &__item>a:hover{
+        color: #b6b8bb;
+    }
+}
+.icons{
+   margin-left: 600px;
+}
